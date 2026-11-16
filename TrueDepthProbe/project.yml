@@ -1,0 +1,29 @@
+name: TrueDepthProbe
+options:
+  deploymentTarget:
+    iOS: "18.0"
+settings:
+  base:
+    DEVELOPMENT_TEAM: ""
+    CODE_SIGN_STYLE: Automatic
+    SWIFT_VERSION: "5.0"
+targets:
+  TrueDepthProbe:
+    type: application
+    platform: iOS
+    sources: [Sources, ../Shared]
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.example.PalmRayProbe
+        TARGETED_DEVICE_FAMILY: "1"
+    info:
+      path: Info.plist
+      properties:
+        CFBundleDisplayName: TrueDepth Probe
+        NSLocalNetworkUsageDescription: Send hand position and pinch state to the Mac gesture test window.
+        NSBonjourServices: ["_rayneohand._tcp"]
+        NSCameraUsageDescription: Test infrared and depth camera streams for hand gesture input.
+        UIFileSharingEnabled: true
+        LSSupportsOpeningDocumentsInPlace: true
+        UILaunchScreen: {}
+        UISupportedInterfaceOrientations: [UIInterfaceOrientationPortrait, UIInterfaceOrientationLandscapeLeft, UIInterfaceOrientationLandscapeRight]

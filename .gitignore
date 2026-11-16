@@ -1,0 +1,15 @@
+.DS_Store
+**/build/
+**/DerivedData/
+**/xcuserdata/
+**/*.xcuserstate
+**/results/
+*.log
+*.ipa
+*.mobileprovision
+*.p12
+*.cer
+dist/
+HANDOFF.md
+PROTOCOL.md
+TrueDepthProbe/TrueDepthProbe.xcodeproj/

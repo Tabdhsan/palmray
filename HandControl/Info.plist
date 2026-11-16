@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0"><dict>
+<key>CFBundleIdentifier</key><string>com.example.PalmRayHandControl</string>
+<key>CFBundleExecutable</key><string>HandControl</string>
+<key>CFBundleName</key><string>Hand Control</string>
+<key>CFBundlePackageType</key><string>APPL</string>
+<key>NSLocalNetworkUsageDescription</key><string>Receive hand position and pinch events from your iPhone for the gesture test window.</string>
+<key>NSBonjourServices</key><array><string>_rayneohand._tcp</string></array>
+</dict></plist>

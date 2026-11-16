@@ -1,0 +1,94 @@
+{
+  "project": "PalmRay",
+  "status": "unpublished review package; license not selected",
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "48307ab75a9347f6285ecebd3fbf6c204a9d7ce0b19565d03eafa1e65dfcd653"
+    },
+    {
+      "path": "OPEN_SOURCE.md",
+      "sha256": "b64361d00d5f3343741c63afdc55f9d3a95a29781a85f3fdb88e652b32012778"
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "eebd2ae0a12764633478aefc17f13908b64f6428d20912e2c1c9a54a10950175"
+    },
+    {
+      "path": "docs/index.html",
+      "sha256": "30c7caff10627ad23a0c17d7596b29174690da1c60f1883b199c7ce7c28a5d27"
+    },
+    {
+      "path": "Shared/HandPacket.swift",
+      "sha256": "3bf3c24942efc8bd194c438680e85e3dc1a430da85e2d568dd53f87f2e5ead6c"
+    },
+    {
+      "path": "HandControl/main.swift",
+      "sha256": "2d0312242a531885d0615c3a762be06a2e6071942fdfbb88c01a054719d82483"
+    },
+    {
+      "path": "HandControl/SystemPointer.swift",
+      "sha256": "803bb2321c526361dd19a067968c6495d33f0e5cf1fdf931a510a862abc247ef"
+    },
+    {
+      "path": "HandControl/PointerMotion.swift",
+      "sha256": "9bffd7a84b0fb4e4ce231f008212bb6cc0639fd68f87407721483e5fadfffd60"
+    },
+    {
+      "path": "HandControl/ScrollGesture.swift",
+      "sha256": "88c5eebb75e94d3ca4da586f2a401d3b79c7ba18109a6bbb4ad44297096e6caa"
+    },
+    {
+      "path": "HandControl/Info.plist",
+      "sha256": "2fe3a84e43fd0c288480f6eecb3d62197921505b6d2a97f8c8c13b25306b8157"
+    },
+    {
+      "path": "HandControl/build.sh",
+      "sha256": "d467febc1f7358595e1439d010f2c247c92940c27c6f365a0fa7b6bb27aaaf6a"
+    },
+    {
+      "path": "HandControl/README.md",
+      "sha256": "63b410f6da7f9fed1ecfbac8032ea7a72225d8f3c6e5289b023acb18d7e0bc29"
+    },
+    {
+      "path": "TrueDepthProbe/Sources/App.swift",
+      "sha256": "84bab22a0fb582c8fc212e89b3e43a95e4c5012629bb384e156ed70d5b05de7a"
+    },
+    {
+      "path": "TrueDepthProbe/Sources/HandSender.swift",
+      "sha256": "c29c16f671949a0a392fd7b106b8a34da905a82d4e278d7e3c42afd6cfdd6815"
+    },
+    {
+      "path": "TrueDepthProbe/Info.plist",
+      "sha256": "00fff8a7afe9f00d6652d1fc87db0e7f82d26ad4440f72c1475360fe82c7288b"
+    },
+    {
+      "path": "TrueDepthProbe/project.yml",
+      "sha256": "f8d6b8d517e0049a0730b81f960b6bbf745b00e9f3365795e576728b0efdac72"
+    },
+    {
+      "path": "TrueDepthProbe/README.md",
+      "sha256": "120043620456ca6febe27da90bddcc8d1669a5fcc5c6046403313f1b6bdeb2e1"
+    },
+    {
+      "path": "release/TrueDepthProbe.README.md",
+      "sha256": "120043620456ca6febe27da90bddcc8d1669a5fcc5c6046403313f1b6bdeb2e1"
+    },
+    {
+      "path": "release/VALIDATION.md",
+      "sha256": "f4306546eff7cf0e8a763cd40bc22f0087880e7ab129bdc81754eee5fe7260e1"
+    },
+    {
+      "path": "tools/export_open_source.py",
+      "sha256": "afd4644fff1f2b68ebd8ea614ca8909471158d15454aec12df3eb3f5a8f684c2"
+    }
+  ],
+  "exclusions": [
+    "private lab notes",
+    "device logs",
+    "local signing identities",
+    "generated projects",
+    "compiled binaries",
+    "glasses protocol/tools"
+  ]
+}
